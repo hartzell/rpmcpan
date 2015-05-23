@@ -1,5 +1,6 @@
 {
     "B-C": { "patch": ["b-c-perldoc.t.patch"] },
+    "Moo": {},
     "Mouse": {},
     "Any-Moose": {
         "missing_prereqs": [{
