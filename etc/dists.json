@@ -2,6 +2,26 @@
     "B-C": { "patch": ["b-c-perldoc.t.patch"] },
     "Moo": {},
     "Mouse": {},
+    "Test-CleanNamespaces": {
+       "exclude_build_requires": [
+          "Class::MOP::Class",
+          "metaclass",
+          "Moose",
+          "Moose::Exporter",
+          "Moose::Role",
+          "MooseX::Role::Parameterized"
+       ]
+    },
+    "B-Hooks-EndOfScope": {
+        "missing_prereqs": [{
+            "module": "Variable::Magic",
+            "version": "0.48",
+            "phase": "build",
+            "relationship": "requires"
+        }]
+    },
+
+    "Moose": {},
     "Any-Moose": {
         "missing_prereqs": [{
             "module": "Mouse",
