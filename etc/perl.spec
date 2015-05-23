@@ -45,7 +45,7 @@ are system administration utilities and web programming. A large proportion of
 the CGI scripts on the web are written in Perl. You need the perl package
 installed on your system so that your system can handle Perl scripts.
 
-Provides: iov-%{sname}
+Provides: gne-%{sname}
 Provides: %{sname}%{plv}(:WITH_ITHREADS)
 Provides: %{sname}%{plv}(:WITH_PERLIO)
 

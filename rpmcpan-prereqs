@@ -1,0 +1,11 @@
+HTTP::Tiny
+Module::CoreList
+Getopt::Long
+File::Spec::Functions
+File::Find
+Archive::Tar
+File::Basename
+POSIX
+File::Path
+List::Util
+Cwd
